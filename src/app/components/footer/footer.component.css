@@ -1,0 +1,88 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+@font-face {
+    font-family: 'WebSymbolsRegular';
+    src: url('../../../assets/font/SmartphoneFonts.ttf')
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    bottom: 0%;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 200px;
+    background-color: #343A40;
+}
+
+.text-muted {
+    color: white !important;
+}
+
+.text-muted p {
+    padding-top: 40px;
+}
+
+#bottom-text {
+    padding-top: 2px;
+    font-size: 13px;
+}
+
+
+/* Custom page CSS
+  -------------------------------------------------- */
+
+
+/* Not required for template or sticky footer method. */
+
+body>.container {
+    padding: 60px 15px 0;
+}
+
+.footer>.container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+code {
+    font-size: 80%;
+}
+
+.social {
+    font-family: 'WebSymbolsRegular';
+    font-size: 24px;
+    margin-bottom: 0.5em;
+    margin: 16px;
+    margin-left: 47%;
+    width: 1%;
+    height: 35px;
+    min-width: 320px;
+    text-decoration: none;
+}
+
+.facebook {
+    float: left;
+    margin: 1%;
+    text-decoration: none;
+}
+
+.whatsapp {
+    float: left;
+    margin: 1%;
+    text-decoration: none;
+}
+
+.instagram {
+    float: left;
+    margin: 1%;
+    text-decoration: none;
+}

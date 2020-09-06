@@ -24,9 +24,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.min.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -117,8 +121,16 @@
               "devServerTarget": "AlejandraBriefcase:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "AlejandraBriefcase"
+    }
+  },
+  "defaultProject": "AlejandraBriefcase",
+  "cli": {
+    "analytics": "2a5956a0-ad1e-4e68-86d9-2cfa9d819db9"
+  }
 }
