@@ -9,17 +9,15 @@ import { BrowserModule } from '@angular/platform-browser';
 import { environment } from '../environments/environment.prod';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
+import { CuartoComponent } from './components/cuarto/cuarto.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
+import { PrePrimariaComponent } from './components/pre-primaria/pre-primaria.component';
 import { PrimeroComponent } from './components/primero/primero.component';
 import { SegundoComponent } from './components/segundo/segundo.component';
 import { TerceroComponent } from './components/tercero/tercero.component';
-import { CuartoComponent } from './components/cuarto/cuarto.component';
-import { PrepaComponent } from './components/prepa/prepa.component';
-import { KinderComponent } from './components/kinder/kinder.component';
-import { PreKinderComponent } from './components/pre-kinder/pre-kinder.component';
 
 
 @NgModule({
@@ -33,9 +31,7 @@ import { PreKinderComponent } from './components/pre-kinder/pre-kinder.component
     SegundoComponent,
     TerceroComponent,
     CuartoComponent,
-    PrepaComponent,
-    KinderComponent,
-    PreKinderComponent
+    PrePrimariaComponent
   ],
   imports: [
     BrowserModule,
